@@ -1,0 +1,13 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <div class="quote">
+        <h2>Quote</h2>
+        <h3>@Model.Result.Quote</h3>
+        <h4>@Model.Result.Author</h4>
+    </div>
+</div>
